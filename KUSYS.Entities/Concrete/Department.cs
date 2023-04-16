@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using KUSYS.Shared.Entities.Abstract;
 
 namespace KUSYS.Entities.Concrete
 {
-    public class Department
+    public class Department : EntityBase, IEntity
     {
         public int Name { get; set; }
-        public string BuildingCode { get; set; }
-
+        public char Code { get; set; }   
     }
 }

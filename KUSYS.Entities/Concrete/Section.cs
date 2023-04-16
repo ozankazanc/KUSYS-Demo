@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using KUSYS.Shared.Entities.Abstract;
 
 namespace KUSYS.Entities.Concrete
 {
-    public class Section
+    public class Section : EntityBase, IEntity
     {
-        public Semester Semester { get; set; }
+        public int Semester { get; set; }
         public int Year { get; set; }
-        public DateTime StartTime { get; set; }
-        public DateTime EndTime { get; set; }
+        public int Capacity { get; set; }
+        public int CourseId { get; set; }
+        public int InstructorId { get; set; }
+        public Course Course { get; set; }
+        public Instructor Instructor { get; set; }
     }
 
     public enum Semester

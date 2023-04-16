@@ -9,8 +9,10 @@ namespace KUSYS.Entities.Concrete
     public class Course
     {
         public string Code { get; set; }
-        public string Name { get; set; }
-        public int Credit { get; set; }
-        public int StudentCapacity { get; set; }
+        public string Title { get; set; }
+        public int Credits { get; set; }
+        public bool Description { get; set; }
+        public int DepartmentId { get; set; }
+        public Department Department { get; set; }
     }
 }
