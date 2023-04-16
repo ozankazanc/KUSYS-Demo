@@ -7,7 +7,7 @@ namespace KUSYS.Entities.Concrete
 {
     public class UserRole : IdentityUserRole<int>
     {
-        public class UserLogin:IdentityUserLogin<int>
+        public class UserLogin : IdentityUserLogin<int>
         {
 
         }

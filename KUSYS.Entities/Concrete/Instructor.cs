@@ -7,7 +7,7 @@ namespace KUSYS.Entities.Concrete
     {
         public DateTime StartDate { get; set; }
         public int PersonId { get; set; }
-        public int DepartmantId { get; set; }
+        public int DepartmentId { get; set; }
         public Person Person { get; set; }
         public Department Department { get; set; }
     }

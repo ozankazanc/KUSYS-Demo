@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUSYS.Entities", "KUSYS.Entities\KUSYS.Entities.csproj", "{FC56BBBD-E5FA-4D67-B717-0993A8A03336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Entities", "KUSYS.Entities\KUSYS.Entities.csproj", "{FC56BBBD-E5FA-4D67-B717-0993A8A03336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUSYS.Shared", "KUSYS.Shared\KUSYS.Shared.csproj", "{FD54A6FB-77E2-465B-AD1E-1CB9B4CA6BA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Shared", "KUSYS.Shared\KUSYS.Shared.csproj", "{FD54A6FB-77E2-465B-AD1E-1CB9B4CA6BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUSYS.Data", "KUSYS.Data\KUSYS.Data.csproj", "{5233A7FC-FE04-44FB-B354-F464BAB114A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FD54A6FB-77E2-465B-AD1E-1CB9B4CA6BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD54A6FB-77E2-465B-AD1E-1CB9B4CA6BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD54A6FB-77E2-465B-AD1E-1CB9B4CA6BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5233A7FC-FE04-44FB-B354-F464BAB114A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5233A7FC-FE04-44FB-B354-F464BAB114A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5233A7FC-FE04-44FB-B354-F464BAB114A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5233A7FC-FE04-44FB-B354-F464BAB114A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
